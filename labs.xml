@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entries>
+	<entry>
+		<folderName>Lab 1</folderName>
+		<description>Configuring a server through Apache</description>
+		<location>../projects/labs/Lab1</location>
+	</entry>
+	<entry>
+		<folderName>Lab 2</folderName>
+		<description>Making a playlist of my favorite songs through HTML, CSS, and XML</description>
+		<location>../projects/labs/Lab2/RoshniVachhani-lab2part1.html</location>
+	</entry>
+	<entry>
+		<folderName>Lab 3</folderName>
+		<description>Making an HTML page interactive through Javascript</description>
+		<location>../projects/labs/Lab3/lab3.html</location>
+	</entry>
+	<entry>
+		<folderName>Lab 4</folderName>
+		<description>Using JSON and AJAX to alter the playlist created in Lab 2</description>
+		<location>../projects/labs/Lab4/lab4.html</location>
+	</entry>
+	<entry>
+		<folderName>Lab 5</folderName>
+		<description>Making code more efficient using various front-end optimization methods</description>
+		<location>../projects/labs/Lab5/lab5.html</location>
+	</entry>
+	<entry>
+		<folderName>Lab 6</folderName>
+		<description>Creating a calculator using PHP and JavaScript</description>
+		<location>../projects/labs/Lab6/lab6.php</location>
+	</entry>
+	<entry>
+		<folderName>Lab 7</folderName>
+		<description>Reformatting the websys website using BootStrap</description>
+		<location>../projects/labs/Lab7</location>
+	</entry>
+<!-- 	<entry>
+		<folderName>Lab 8</folderName>
+		<description>Making an HTML page interactive through Javascript</description>
+		<location>../projects/labs/Lab8</location>
+	</entry>
+	<entry>
+		<folderName>Lab 9</folderName>
+		<description>Making an HTML page interactive through Javascript</description>
+		<location>../projects/labs/Lab9</location>
+	</entry>
+	<entry>
+		<folderName>Lab 10</folderName>
+		<description>Making an HTML page interactive through Javascript</description>
+		<location>../projects/labs/Lab10</location>
+	</entry> -->
+</entries>
+

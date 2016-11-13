@@ -1,0 +1,19 @@
+h1 {
+	color: gray;
+	text-align: center;
+	border-style: solid;
+	border-color: black;
+}
+
+.menu {
+	font-size: 16px;
+}
+
+#content {
+	width: 600px;
+}
+
+th {
+	text-align: center;
+	font-size: 15px;
+}
