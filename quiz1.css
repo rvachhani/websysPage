@@ -1,19 +1,151 @@
-h1 {
-	color: gray;
-	text-align: center;
-	border-style: solid;
-	border-color: black;
+/*General background/body set up*/
+body {
+	font-size: 16px;
+	font-family: sans-serif;
 }
 
-.menu {
+.container-fluid {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.bg-1 {
+	background-color: gray;
+	color: #ffffff;
+	height: 500px;
+}
+
+.bg-2 {
+	background-color: powderblue;
+	color: gray;
+}
+
+.bg-3 {
+	background-color: gray;
+	color: #ffffff;
+	padding:25px;
+}
+
+
+/*Fonts and headers*/
+#mainHeader {
+	margin: 0 auto;
+	padding-top: 100px;
+	font-size: 75px;
+}
+
+h2 {
+	margin: 0 auto;
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+#subHeader {
+	margin: 0 auto;
+	padding: 0;
+	font-weight: 100;
+	font-size: 40px;
+	padding-top: 15px;
+}
+
+h1 {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-weight: 400;
+	padding-bottom: 25px;
+	font-size: 50px;
+}
+
+h3 {
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+/*Tabs for the projects section*/
+#tabs {
+	margin-top: 10px;
+	height: 280px;
+	background: transparent;
+	border: none;
 	font-size: 16px;
 }
 
-#content {
-	width: 600px;
+#tabs .ui-widget-header {
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #c0c0c0;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
 }
 
-th {
-	text-align: center;
+#tabs .ui-tabs-nav .ui-state-default {
+	background: transparent;
+	border: none;
+}
+
+#tabs .ui-tabs-nav .ui-state-active {
+	background: transparent;
+	border: none;
+}
+
+#tabs .ui-tabs-nav .ui-state-default a {
+	color: gray;
+}
+
+#tabs .ui-tabs-nav .ui-state-active a {
+	color: white;
+}
+
+#lab_content, #hw_content {
+	margin: 0 auto;
+}
+
+/*Table styling*/
+th, td {
+	text-align: left;
 	font-size: 15px;
+	padding: 5px;
+}
+
+/*About Me section styling*/
+.row {
+	margin: 0 auto;
+	padding-bottom: 25px;
+}
+
+.col-sm-4 {
+	margin: 0 auto;
+}
+
+#desc {
+	padding-top: 50px;
+}
+
+#profile {
+	height: 225px;
+	width: 175px;
+}
+
+/*icon and link styling*/
+.material-icons {
+	font-size: 35px;
+	display: block;
+	padding-bottom: 10px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+}
+
+#linkedIn {
+	width: 35px;
+	height: 35px;
+	display: inline;
+}
+
+#linkedIn:hover {
+	background: black;
 }

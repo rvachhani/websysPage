@@ -4,25 +4,65 @@
 <head>
 	<title>Roshni Vachhani</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,400|Julius+Sans+One" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" type="text/css" href="resources/quiz1.css"/>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="resources/quiz1.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script>
+		$(function() {
+			$("#tabs").tabs();
+		});
+	</script>
 </head>
 
 <body>
-	<h1>Web Systems Development</h1>
-	<table id="content" cellpadding="3" cellspacing="1" border="1">
-	</table>
-
-<!-- 	<ul id="menu">
-		<li><a href="index.html">Home</a></li>
-		<li id="labs"><a href="#">Labs</a>
-			<table id="content" cellpadding="3" cellspacing="1" border="1">
-			</table>
-		</li>
-		<li id="homeworks"><a href="#">Homeworks</a><li>
-	</ul> -->
-
+	<div class="container-fluid bg-1 text-center">
+		<h2 id="mainHeader">Roshni Vachhani</h2>
+		<h1 id="subHeader"> Business | Student at Rensselaer Polytechnic Institute | ITWS</h1>
+	</div>
+	<div class="container-fluid bg-2 text-center">
+		<h1 id="projects">Projects</h1>
+		<div id="tabs">
+			<ul>
+				<li><a href="#home">Main</a></li>
+				<li><a href="#labs">Labs</a></li>
+				<li><a href="#hws">Homeworks</a></li>
+			</ul>
+			<div id="home">
+				<p>This is a collection of the various assignments I've completed for my Web Systems Development Class</p>
+			</div>
+			<div id="labs">
+				<table id="lab_content">
+				</table>
+			</div>
+			<div id="hws">
+				<table id="hw_content">
+				</table>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid bg-3 text-center">
+		<h1>About Me</h1>
+		<div class="row">
+			<div class="col-sm-4">
+				<img src="../resources/profilePicture.jpeg" id="profile">
+			</div>
+			<div class="col-sm-4">
+				<p id="desc">I am currently a Junior at Rensselaer Polytechnic Institute pursing a dual major in Business Management and Information Technology & Web Science.</p>
+			</div>
+			<div class="col-sm-4">
+				<h3>Connect With Me</h3>
+				<i class="material-icons"><a href="mailto:roshni.vachhani96@gmail.com">mail</a></i>
+				<a href="https://www.linkedin.com/in/roshnivachhani"><img src="../resources/linked_in.png" id="linkedIn"></img></a>
+			</div>
+		</div>
+	</div>
 
 </body>
 
